@@ -1,20 +1,22 @@
-cd /opt/development/docker/helloworld
+cd /opt/docker/doc
 docker-compose up -d
-cd /opt/development/docker/traefik
+cd /opt/docker/msGreeting
 docker-compose up -d
-cd /opt/development/docker/doc
+cd /opt/docker/msEmployer
 docker-compose up -d
-cd /opt/development/docker/monitoring
+cd /opt/docker/apiManager
 docker-compose up -d
-cd /opt/development/docker/portainer
+cd /opt/docker/msFile
 docker-compose up -d
-cd /opt/development/docker/msEmployer
+cd /opt/docker/monitoring
 docker-compose up -d
-cd /opt/development/docker/msFile
+cd /opt/docker/portainer
 docker-compose up -d
-cd /opt/development/docker/msGreeting
+cd /opt/docker/alert
 docker-compose up -d
-cd /opt/development/docker/alert
+cd /opt/docker/gitlab
 docker-compose up -d
-cd /opt/development/docker/apiManager
+cd /opt/docker/caddy
 docker-compose up -d
+#cd /opt/docker/logs
+#docker-compose up -d
